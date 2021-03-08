@@ -1,0 +1,20 @@
+header, nav {
+  display: inline-block;
+}
+
+header nav {
+  padding: 15px;
+  a {
+    display: block;
+    padding: 10px;
+  }
+}
+a {
+  color: #000;
+  &:hover {
+    color: #000088;
+  }
+}
+body {
+  width: 400px;
+}
